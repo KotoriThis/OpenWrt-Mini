@@ -9,7 +9,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 git clone https://github.com/TraderWukong/luci-app-poweroff.git package/luci-app-poweroff
 
 # 3-添加Opentomcat主题
-git clone https://github.com/TraderWukong/luci-theme-opentomcat.git package/luci-theme-opentomcat
+#git clone https://github.com/TraderWukong/luci-theme-opentomcat.git package/luci-theme-opentomcat
 
 # 4-添加OpenClash插件
 sed -i '$a\src-git openclash https://github.com/vernesong/OpenClash' ./feeds.conf.default
