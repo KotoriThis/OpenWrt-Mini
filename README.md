@@ -10,13 +10,13 @@
 
  - 基础版插件清单：[ShadowSocksR Plus+](https://github.com/fw876/helloworld.git)
 
- - 合集版插件清单：[ShadowSocksR Plus+](https://github.com/fw876/helloworld.git)、[PassWall](https://github.com/xiaorouji/openwrt-passwall.git)、[OpenClash](https://github.com/vernesong/OpenClash.git.git)
+ - 合集版插件清单：[ShadowSocksR Plus+](https://github.com/fw876/helloworld.git)、[PassWall](https://github.com/xiaorouji/openwrt-passwall.git)、[PassWall2](https://github.com/xiaorouji/openwrt-passwall2)、[OpenClash](https://github.com/vernesong/OpenClash.git.git)
 
 | 管理地址  | 默认账号 | 默认密码 |
 | ---- | ---- | ---- |
 | 192.1.1.3 | root | 无密码 |
 
-## 固件下载:   [Releases](https://github.com/TraderWukong/OpenWrt-Mini/releases) 
+## 固件下载:   [Releases](https://github.com/KotoriThis/OpenWrt-Mini/releases) 
 
 ## 固件截图
 
