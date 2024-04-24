@@ -21,5 +21,5 @@ echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-pa
 # 5-添加PassWall2插件
 echo "src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git;main" >> "feeds.conf.default"
 
-# 5-添加PassWall插件
+# 5-添加istore商店
 echo "src-git istore https://github.com/linkease/istore;main" >> "feeds.conf.default"
