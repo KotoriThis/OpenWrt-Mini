@@ -3,7 +3,7 @@
 
 
 # 1-设置默认主题
-sed -i 's/bootstrap/Agron/g' ./feeds/luci/collections/luci/Makefile
+sed -i 's/bootstrap/Argon/g' ./feeds/luci/collections/luci/Makefile
 
 # 2-设置管理地址
 sed -i 's/192.168.1.1/192.1.1.3/g' package/base-files/files/bin/config_generate
