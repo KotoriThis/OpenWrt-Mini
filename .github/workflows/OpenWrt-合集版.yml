@@ -69,6 +69,9 @@ jobs:
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
+ 
+    - name: 删除自带argon主题
+      run: cd openwrt/package/lean && rm -rf luci-theme-argon
 
     - name: 添加外部插件
       run: |

@@ -8,8 +8,10 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # 2-添加PowerOff关机插件
 git clone https://github.com/TraderWukong/luci-app-poweroff.git package/luci-app-poweroff
 
-# 3-添加Opentomcat主题
-git clone https://github.com/TraderWukong/luci-theme-opentomcat.git package/luci-theme-opentomcat
+# 3-替换argon主题
+#git clone https://github.com/TraderWukong/luci-theme-opentomcat.git package/luci-theme-opentomcat
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
 
 # 4-添加OpenClash插件
 sed -i '$a\src-git openclash https://github.com/vernesong/OpenClash' ./feeds.conf.default
@@ -20,6 +22,3 @@ echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-pa
 
 # 5-添加PassWall2插件
 echo "src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git;main" >> "feeds.conf.default"
-
-# 5-添加istore商店
-echo "src-git istore https://github.com/linkease/istore;main" >> "feeds.conf.default"
